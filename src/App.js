@@ -6,6 +6,8 @@ import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
 import About from './components/About';
 
+//main app to run tracker
+
 const App = () => {
 	const [showAddTask, setShowAddTask] = useState(false);
 	const [tasks, setTasks] = useState([]);
